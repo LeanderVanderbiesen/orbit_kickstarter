@@ -3,8 +3,15 @@ $grey       : #a0a0a0;
 $green-hover: #037362;
 $green-dark : #009E74;
 
+$borderline : 0.1px solid $grey;
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:300&display=swap');
+
+$font1: 'Lato', sans-serif;
+$font2: 'Raleway', sans-serif;
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: $font1;
 }
 
 
@@ -16,11 +23,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    border-bottom: 0.1px solid $grey;
+    padding: 20px 60px;
+    border-bottom: $borderline;
 }
 
-header>ul{
+ul{
     display: flex;
     list-style: none;
     color: black;
@@ -47,4 +54,34 @@ a{
 
 .video_text{
 	text-align:right;
+}
+
+.navbar{
+    border-bottom: $borderline;
+    border-top: $borderline;
+    //padding: 60px;
+    font-weight: 400;
+
+    ul{
+        padding-left:60px;
+    }
+
+    a{
+        padding:20px 5px;
+    }
+    .active{
+        border-bottom: 3px solid $black;
+        font-weight: 600;
+    }
+}
+
+.content{
+    max-width: 80%;
+    margin: 30px auto;
+    display:flex;
+}
+
+.story{
+    max-width:70%;
+    margin-right:20px;
 }

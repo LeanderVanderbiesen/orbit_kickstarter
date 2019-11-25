@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300|Raleway:300&display=swap");
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .title-section {
@@ -10,18 +11,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 60px;
   border-bottom: 0.1px solid #a0a0a0;
 }
 
-header > ul {
+ul {
   display: flex;
   list-style: none;
   color: black;
   margin: 0;
   padding: 0;
 }
-header > ul li {
+ul li {
   padding: 10px;
 }
 
@@ -41,6 +42,33 @@ a:hover {
 
 .video_text {
   text-align: right;
+}
+
+.navbar {
+  border-bottom: 0.1px solid #a0a0a0;
+  border-top: 0.1px solid #a0a0a0;
+  font-weight: 400;
+}
+.navbar ul {
+  padding-left: 60px;
+}
+.navbar a {
+  padding: 20px 5px;
+}
+.navbar .active {
+  border-bottom: 3px solid #282828;
+  font-weight: 600;
+}
+
+.content {
+  max-width: 80%;
+  margin: 30px auto;
+  display: flex;
+}
+
+.story {
+  max-width: 70%;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
