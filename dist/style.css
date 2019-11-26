@@ -45,7 +45,6 @@ a:hover {
   text-align: right;
 }
 
-
 .mid-section-right {
   line-height: 30px;
 }
@@ -64,6 +63,7 @@ a:hover {
 
 .bttn {
   font-size: 12px;
+}
 
 .navbar {
   border-bottom: 0.1px solid #a0a0a0;
@@ -90,4 +90,7 @@ a:hover {
 .story {
   max-width: 70%;
   margin-right: 20px;
+  background-color: red;
+}
 
+/*# sourceMappingURL=style.css.map */
