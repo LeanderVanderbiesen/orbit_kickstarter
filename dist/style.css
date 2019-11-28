@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
-  border-bottom: 0.1px solid #a0a0a0;
+  border-bottom: 0.1px solid #494949;
 }
 
 ul {
@@ -41,6 +41,10 @@ a:hover {
 /*MID SECTION
 ****
 */
+.wrapper {
+  font-size: 18px;
+}
+
 .title-section {
   text-align: center;
   padding: 20px;
@@ -51,6 +55,7 @@ a:hover {
 }
 
 .video-info {
+  margin-left: 220px;
   text-align: left;
 }
 
@@ -82,7 +87,7 @@ a:hover {
 
 .goal-info {
   display: block;
-  color: #a0a0a0;
+  color: #494949;
   font-size: 1.4rem;
   font-weight: bolder;
 }
@@ -105,8 +110,8 @@ a:hover {
 ***
 */
 .navbar {
-  border-bottom: 0.1px solid #a0a0a0;
-  border-top: 0.1px solid #a0a0a0;
+  border-bottom: 0.1px solid #494949;
+  border-top: 0.1px solid #494949;
   font-weight: 400;
 }
 .navbar ul {

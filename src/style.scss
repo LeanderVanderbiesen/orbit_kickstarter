@@ -1,5 +1,5 @@
 $black      : #282828;
-$grey       : #a0a0a0;
+$grey       : #494949;
 $green-hover: #037362;
 $green-dark : #009E74;
 $white      : #FFFFFF;
@@ -51,7 +51,9 @@ a{
 /*MID SECTION
 ****
 */
-
+.wrapper{
+    font-size: 18px;
+}
 .title-section{
     text-align: center;
     padding: 20px;
@@ -60,6 +62,7 @@ a{
 	text-align:right;
 }
 .video-info{
+ margin-left:220px;
     text-align: left;
 }
 .green-bar{
