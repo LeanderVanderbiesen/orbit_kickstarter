@@ -3,6 +3,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /*HEADER
 ***
  */
@@ -137,6 +141,11 @@ a:hover {
 .story {
   max-width: 70%;
   margin-right: 20px;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px auto;
 }
 
 /*# sourceMappingURL=style.css.map */
