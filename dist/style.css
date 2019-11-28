@@ -1,10 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300|Raleway:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 18px;
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 /*HEADER
@@ -46,7 +54,8 @@ a:hover {
 ****
 */
 .wrapper {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .title-section {
@@ -139,7 +148,7 @@ a:hover {
 }
 
 .story {
-  max-width: 70%;
+  max-width: 60%;
   margin-right: 20px;
 }
 

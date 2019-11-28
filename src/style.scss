@@ -3,19 +3,26 @@ $grey       : #494949;
 $green-hover: #037362;
 $green-dark : #009E74;
 $white      : #FFFFFF;
+
 $borderline : 0.1px solid $grey;
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
-$font1: 'Lato', sans-serif;
-$font2: 'Raleway', sans-serif;
+$font1: 'Roboto', sans-serif;
 
 body{
-   font-family: $font1;
+   font-family:$font1;
 }
 
+h2{
+    font-size: 24px;
+}
+
+.description{
+    font-size: 18px;
+}
 .bold{
-    font-weight: bold;
+    font-weight: 400;
 }
 
 /*HEADER
@@ -57,7 +64,8 @@ a{
 */
 
 .wrapper{
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .title-section{
@@ -151,7 +159,7 @@ a{
 
 
     .story {
-        max-width: 70%;
+        max-width: 60%;
         margin-right: 20px;
     }
 
@@ -159,5 +167,9 @@ a{
     //border: $borderline;
     padding:20px;
     margin: 20px auto;
+}
+
+.pledge{
+    
 }
 
