@@ -49,9 +49,19 @@ a:hover {
   font-size: 18px;
 }
 
+.grid-container {
+  background-color: #fafafa;
+  margin-bottom: 20px;
+}
+
 .title-section {
   text-align: center;
   padding: 20px;
+}
+
+.video iframe {
+  width: 700px;
+  height: 350px;
 }
 
 .video_text {
@@ -101,7 +111,7 @@ a:hover {
   height: 85px;
   text-align: center;
   font-size: 1.1rem;
-  padding: 10px 50px;
+  padding: 10px 100px;
   color: #FFFFFF;
 }
 .project-button:hover {
@@ -146,6 +156,13 @@ a:hover {
 .card {
   padding: 20px;
   margin: 20px auto;
+}
+
+@media screen and (max-width: 1485px) and (min-width: 1024px) {
+  .video iframe {
+    width: 600px;
+    height: 350px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
