@@ -14,12 +14,9 @@ body{
    font-family: $font1;
 }
 
-
-.title-section{
-			text-align: center;
-			padding: 20px;
-}
-
+/*HEADER
+***
+ */
 header{
     display: flex;
     justify-content: space-between;
@@ -52,7 +49,14 @@ a{
     max-height: 18px;
     line-height: auto;
 }
-
+/*MID SECTION
+****
+*/
+ */
+.title-section{
+    text-align: center;
+    padding: 20px;
+}
 .video_text{
 	text-align:right;
 }
@@ -75,6 +79,9 @@ a{
    font-size:12px;
     }
 
+/*NAVBAR
+***
+*/
 
 .navbar{
     border-bottom: $borderline;
@@ -94,7 +101,9 @@ a{
         font-weight: 600;
     }
 }
-
+/*CONTENT
+***
+*/
 .content{
     max-width: 80%;
     margin: 30px auto;
