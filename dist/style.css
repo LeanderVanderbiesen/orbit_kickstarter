@@ -3,11 +3,9 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.title-section {
-  text-align: center;
-  padding: 20px;
-}
-
+/*HEADER
+***
+ */
 header {
   display: flex;
   justify-content: space-between;
@@ -38,33 +36,74 @@ a:hover {
 .logo {
   max-width: 180px;
   max-height: 18px;
-  line-height: auto;
+}
+
+/*MID SECTION
+****
+*/
+.title-section {
+  text-align: center;
+  padding: 20px;
 }
 
 .video_text {
   text-align: right;
 }
 
-.mid-section-right {
-  line-height: 30px;
+.video-info {
+  text-align: left;
 }
 
-.bttn-large {
-  height: 4.8rem;
-  line-height: 4.8rem;
-  padding: 0 2.4rem;
-  font-size: 1.6rem;
-}
-
-.bttn-green {
+.green-bar {
+  width: 40%;
+  height: 8px;
   background-color: #009E74;
-  color: #FFFFFF !important;
+  margin-bottom: 5px;
 }
 
-.bttn {
-  font-size: 12px;
+.share {
+  font-size: 14px;
+  line-height: 60px;
 }
 
+.share img {
+  margin-right: 5px;
+  height: 18px;
+  width: 18px;
+}
+
+.share p {
+  margin-top: -15px;
+}
+
+.items-center {
+  margin-bottom: 20px;
+}
+
+.goal-info {
+  display: block;
+  color: #a0a0a0;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.project-button {
+  background-color: #009E74;
+  height: 85px;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 10px 50px;
+  color: #FFFFFF;
+}
+.project-button:hover {
+  background-color: #037362;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*NAVBAR
+***
+*/
 .navbar {
   border-bottom: 0.1px solid #a0a0a0;
   border-top: 0.1px solid #a0a0a0;
@@ -81,6 +120,9 @@ a:hover {
   font-weight: 600;
 }
 
+/*CONTENT
+***
+*/
 .content {
   max-width: 80%;
   margin: 30px auto;
